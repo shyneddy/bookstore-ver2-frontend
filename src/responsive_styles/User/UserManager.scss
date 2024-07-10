@@ -1,0 +1,29 @@
+.user-control {
+  margin: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    a {
+      text-decoration: none;
+      color: #333;
+
+      li {
+        margin-bottom: 10px;
+        border: 1px solid #ceb3b3;
+        background-color: #f8f6f0;
+        border-radius: 4px;
+        padding: 5px;
+      }
+    }
+
+    a:hover {
+      color: #666;
+    }
+  }
+}

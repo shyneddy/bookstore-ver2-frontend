@@ -1,0 +1,66 @@
+$primary-color: #3498db;
+$secondary-color: #e74c3c;
+
+.rating-manager-container {
+  // max-width: 800px;
+  margin: 0 auto;
+  // padding: 20px;
+
+  h1 {
+    text-align: center;
+    // color: $primary-color;
+
+    padding: 10px 0;
+    background-color: rgb(231 231 231);
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .rating-manager {
+    padding: 10px;
+
+    .review-list {
+      margin-top: 20px;
+
+      .review-item {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+
+        .review-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          // margin-bottom: 10px;
+
+          .review-title {
+            // color: #7d8080;
+            font-weight: bold;
+          }
+
+          .delete-btn {
+            background-color: $secondary-color;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+              background-color: darken($secondary-color, 10%);
+            }
+          }
+        }
+
+        .review-content {
+          color: #555;
+        }
+
+        .review-stars {
+          color: #555;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,228 @@
+.order-container {
+  // background-color: #f7fafd;
+  width: 80%;
+  margin: 30px auto;
+  padding-bottom: 10px;
+  border-radius: 5px;
+
+  .title-container-top {
+    display: flex;
+    background-color: #f8f6f0;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    .cato .sub-title {
+      font-weight: bold;
+      //   text-align: center;
+      // margin: 5px 20px;
+    }
+
+    .product {
+      width: 45%;
+      //   margin: 0 0 0 10px;
+    }
+
+    .price {
+      width: 15%;
+      text-align: center;
+    }
+
+    .quantity {
+      width: 15%;
+      text-align: center;
+    }
+
+    .total {
+      width: 15%;
+      text-align: center;
+    }
+
+    .remove {
+      width: 10%;
+      text-align: center;
+    }
+  }
+
+  .title-container-content {
+    background-color: #f8f6f0;
+    border-radius: 5px;
+
+    .orderproduct-container {
+      display: flex;
+      //   margin: 20px;
+      font-weight: 500;
+      padding: 10px;
+      border-bottom: 1.5px solid #ededed;
+
+      .product {
+        width: 45%;
+        display: flex;
+        box-sizing: border-box;
+
+        .img {
+          img {
+            width: 80px;
+            margin: 5px;
+          }
+        }
+
+        .productname {
+          box-sizing: border-box;
+          margin: auto 10px;
+        }
+      }
+
+      .price {
+        width: 15%;
+        text-align: center;
+        margin: auto 0;
+        color: #c92127;
+      }
+
+      .quantity-input {
+        display: flex;
+        width: 15%;
+        align-items: center;
+        justify-content: center;
+
+        input {
+          width: 40px;
+          padding: 5px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          text-align: center;
+        }
+
+        button {
+          background-color: rgb(129, 125, 125);
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          padding: 5px 10px;
+          cursor: pointer;
+          margin: 0 5px;
+        }
+      }
+
+      .total-price {
+        width: 15%;
+        margin: auto 0;
+        text-align: center;
+        color: #c92127;
+      }
+
+      .remove-btn {
+        width: 10%;
+        margin: auto;
+        text-align: center;
+        img {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .pay-container {
+      display: flex;
+      position: relative;
+      margin: 30px 100px;
+      padding: 30px;
+
+      .total-order {
+        font-size: 20px;
+        font-weight: 600;
+
+        span {
+          color: #c92127;
+          font-size: 25px;
+        }
+      }
+
+      .btn-pay {
+        position: absolute;
+        right: 10px;
+        width: fit-content;
+        // margin: 20px 0;
+
+        button {
+          border-style: none;
+          background-color: rgb(129, 125, 125);
+          color: white;
+          width: 300px;
+          font-size: 20px;
+          font-weight: 500;
+          padding: 5px 30px;
+          border-radius: 20px;
+          cursor: pointer;
+        }
+
+        button:hover {
+          background-color: rgb(16, 172, 159);
+        }
+      }
+    }
+  }
+}
+
+.order-noitem {
+  background-color: aquamarine;
+  // min-width: 1000px;
+  width: 80%;
+  margin: 20px auto;
+  padding-bottom: 10px;
+  border-radius: 5px;
+
+  .img {
+    width: fit-content;
+    margin: 30px auto;
+
+    img {
+      margin-top: 30px;
+      width: 200px;
+    }
+  }
+
+  .message {
+    width: fit-content;
+    margin: 30px auto;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .btn-shopping {
+    margin: 30px auto;
+    width: fit-content;
+
+    button {
+      border-style: none;
+      background-color: red;
+      color: white;
+      width: 300px;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 5px 30px;
+      border-radius: 20px;
+    }
+  }
+}
+
+//Ipad
+@media (max-width: 840px) {
+  .order-noitem {
+    width: 100%;
+    margin: 0;
+    min-width: 0;
+    display: block;
+
+    .img {
+      margin: 0 auto;
+    }
+  }
+
+  .order-container {
+    width: 100%;
+    margin: 0;
+    min-width: 0;
+    display: block;
+  }
+}

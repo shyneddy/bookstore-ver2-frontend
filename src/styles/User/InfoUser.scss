@@ -1,0 +1,192 @@
+.userinfo-container {
+  margin: 30px auto;
+  width: 80%;
+  // background-color: rgb(255, 255, 255);
+  display: flex;
+  // border-radius: 10px;
+  //   border: 2px groove black;
+  overflow-x: hidden;
+
+  .usercard {
+    flex: 3;
+    width: fit-content;
+    background-color: #f0f0f0f0;
+    margin: 0 10px 0 0;
+    height: fit-content;
+    border-radius: 10px;
+
+    .userintro-container {
+      display: flex;
+
+      .intro {
+        margin: 30px;
+
+        .name-user {
+          font-weight: 700;
+          font-size: 25px;
+          margin: 15px auto;
+        }
+      }
+    }
+
+    .control {
+      padding: 20px;
+
+      ul {
+        list-style: none;
+
+        li {
+          padding: 10px 5px;
+          // width: 100%;
+          //   background-color: azure;
+          // margin-left: 20px;
+          // margin-bottom: 10px;
+          border-bottom: 2px solid #cecece;
+
+          a {
+            text-decoration: none;
+            color: black;
+          }
+        }
+
+        .active {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  .showinfo {
+    border-radius: 10px;
+    flex: 7;
+    // margin-left: 35px;
+    height: auto;
+    width: 100%;
+    background-color: #f0f0f0;
+
+    .title-showinfo {
+      border-bottom: 2px solid black;
+      margin: 20px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .showandupdate {
+      display: flex;
+
+      .info-container {
+        flex: 2;
+
+        .info {
+          width: fit-content;
+          margin: 30px auto;
+
+          .infosubtag {
+            margin: 20px 0;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+
+            input {
+              border-radius: 5px;
+              border: 2px solid #817d7d;
+              padding: 5px 10px;
+              outline: none;
+            }
+
+            .info-title {
+              min-width: 120px;
+            }
+          }
+        }
+
+        .btn-update {
+          width: fit-content;
+          margin: auto;
+
+          button {
+            // border: 2px solid magenta;
+            padding: 5px 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            background-color: #ded4d4;
+          }
+
+          button:hover {
+            border: 2px solid antiquewhite;
+          }
+        }
+      }
+
+      .updatepassword {
+        border-left: 1px solid black;
+        flex: 1;
+        padding: 10px;
+
+        .upassword {
+          display: flex;
+
+          .passwordencode {
+            display: flex;
+            font-size: 20px;
+            // margin-right: 50px;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .btn-updatepassword {
+            button {
+              //   border: 2px solid magenta;
+              padding: 5px 20px;
+              border-radius: 5px;
+              // margin-bottom: 30px;
+              background-color: #ded4d4;
+            }
+
+            button:hover {
+              border: 2px solid antiquewhite;
+            }
+          }
+        }
+
+        .subeditpassword {
+          margin: 10px;
+          font-weight: 600;
+          justify-content: space-between;
+        }
+
+        .changepassword {
+          display: none;
+          justify-content: center;
+
+          .form-update-password {
+            label {
+              // display: block;
+              margin: 10px 0 0;
+            }
+
+            input[type="text"] {
+              border: 1px solid rgb(99, 98, 98);
+              padding: 5px 10px;
+              border-radius: 5px;
+              outline: none;
+            }
+
+            input[type="submit"] {
+              // border: 2px solid magenta;
+              padding: 5px 20px;
+              border-radius: 5px;
+              margin: 10px auto;
+              display: block;
+              background-color: #ded4d4;
+            }
+
+            input[type="submit"]:hover {
+              // border: 2px solid rgb(26, 15, 2);
+            }
+          }
+        }
+      }
+    }
+  }
+}

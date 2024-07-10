@@ -1,0 +1,44 @@
+.info-user-wrapper {
+  // width: 500px;
+  margin: 0 auto 20px;
+
+  h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+  }
+
+  .form {
+    padding: 20px;
+    border: 1px solid #ccc;
+
+    .form-group {
+      margin-bottom: 20px;
+
+      label {
+        font-weight: bold;
+        display: block;
+        text-align: center;
+      }
+
+      input,
+      select {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      background-color: #00ab9f;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

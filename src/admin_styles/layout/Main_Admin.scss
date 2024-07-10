@@ -1,0 +1,90 @@
+// .admin-page-container {
+//     display: flex;
+//     // width: 100vw;
+//     overflow-x: scroll;
+//     min-height: 100vh;
+// }
+
+
+// //Ipad
+// @media (max-width: 840px) {
+
+//     .admin-page-container {
+//         position: relative;
+
+//         .header-container {
+//             z-index: 1000;
+//         }
+
+//         .Right-Column {
+//             display: none;
+//             position: absolute;
+//             z-index: 10;
+//             top: 0;
+//             bottom: 0;
+//         }
+
+//         .show-products-admin {
+//             .page-struct {
+//                 table {
+//                     tbody {
+//                         tr {
+//                             td {
+//                                 .button-group {
+//                                     display: block;
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+// }
+
+
+.admin-page-container {
+    display: flex;
+    // width: 100vw;
+    overflow-x: scroll;
+    min-height: 100vh;
+}
+
+
+//Ipad
+@media (max-width: 840px) {
+
+    .admin-page-container {
+        position: relative;
+
+        .header-container {
+            z-index: 1000;
+        }
+
+        .Right-Column {
+            display: none;
+            position: absolute;
+            z-index: 10;
+            top: 0;
+            bottom: 0;
+        }
+
+        .show-products-admin {
+            .page-struct {
+                table {
+                    tbody {
+                        tr {
+                            td {
+                                .button-group {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

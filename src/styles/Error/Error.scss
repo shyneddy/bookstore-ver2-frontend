@@ -1,0 +1,38 @@
+.error-404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .error {
+        a {
+            text-decoration: none;
+            color: black;
+
+            button {
+                background-color: red;
+                // margin-left: 45%;
+                // height: 50px;
+                // width: fit-content;
+                padding: 10px 15px;
+                border-radius: 6px;
+                display: block;
+                margin: auto;
+            }
+        }
+
+
+        h3 {
+            text-align: center;
+        }
+
+        img {
+            margin: 30px;
+        }
+    }
+}

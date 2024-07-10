@@ -1,0 +1,124 @@
+$primary-color: #3498db;
+$secondary-color: #e74c3c;
+
+.banner-container {
+  // max-width: 800px;
+  margin: 0 auto;
+  // padding: 20px;
+
+  h1 {
+    text-align: center;
+    // color: $primary-color;
+
+    padding: 10px 0;
+    background-color: rgb(231 231 231);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #add-image-form {
+    margin-top: 20px;
+
+    .add-image-label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 16%;
+      height: 150px;
+      border: 2px dashed #00ab9f;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      .icon {
+        font-size: 40px;
+        color: #00ab9f;
+        margin-right: 10px;
+      }
+
+      .text {
+        font-size: 16px;
+        color: #00ab9f;
+      }
+
+      &:hover {
+        background-color: rgba(#00ab9f, 0.1);
+      }
+    }
+
+    input[type="file"] {
+      display: none;
+    }
+  }
+  .banner-manager {
+    padding: 10px;
+
+    .image-list {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+
+      .image-item {
+        position: relative;
+        margin-right: 10px;
+        margin-bottom: 10px;
+
+        img {
+          width: 200px;
+          height: auto;
+          border-radius: 4px;
+        }
+
+        .overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          // display: flex;
+          // align-items: center;
+          // justify-content: center;
+          background-color: rgba(0, 0, 0, 0.6);
+          // opacity: 0;
+          display: none;
+          transition: opacity 0.3s ease;
+
+          .delete-btn {
+            background-color: $secondary-color;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          }
+        }
+
+        &:hover .overlay {
+          // opacity: 1;
+          display: flex;
+          align-items: start;
+          justify-content: right;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 840px) {
+  .banner-container {
+    .banner-manager {
+      .image-list {
+        justify-content: center;
+
+        .image-item {
+          .overlay {
+            background: none;
+            display: flex;
+            align-items: start;
+            justify-content: right;
+          }
+        }
+      }
+    }
+  }
+}

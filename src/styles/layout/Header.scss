@@ -1,0 +1,1920 @@
+// // .header-main {
+// //     background-color: darkgreen;
+
+// //     .container {
+// //         // width: 70%;
+// //         // min-width: 1280px;
+// //         width: 80%;
+// //         // min-width: 1280px;
+
+// //         display: flex;
+// //         justify-content: center;
+// //         align-items: center;
+// //         margin: 0 auto;
+
+// //         .row {
+// //             display: flex;
+// //             align-items: center;
+
+// //             .logo {
+// //                 margin: 0 15px;
+
+// //                 img {
+// //                     max-height: 50px;
+// //                 }
+
+// //             }
+
+// //             .header-m {
+// //                 display: flex;
+// //                 align-items: center;
+
+
+// //                 .category {
+// //                     list-style: none;
+
+// //                     .dropdown {
+// //                         position: relative;
+// //                         display: inline-block;
+// //                         list-style-type: none;
+
+// //                         .dropbtn {
+// //                             color: white;
+// //                             padding: 16px;
+// //                             font-size: 16px;
+// //                             border: none;
+
+// //                             .icon-menu {
+// //                                 img {
+// //                                     width: 36px;
+// //                                     height: 36px;
+// //                                 }
+// //                             }
+// //                         }
+
+// //                         .dropdown-content {
+// //                             display: none;
+// //                             position: absolute;
+// //                             background-color: #f1f1f1;
+// //                             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+// //                             z-index: 1;
+
+// //                             .title-category-rp {
+// //                                 display: none;
+// //                             }
+
+// //                             a {
+// //                                 text-decoration: none;
+// //                                 color: black;
+// //                             }
+
+// //                             li {
+// //                                 padding: 10px 20px;
+
+// //                                 position: relative;
+// //                                 min-width: 160px;
+
+// //                             }
+
+// //                             ul {
+// //                                 position: absolute;
+// //                                 left: 100%;
+// //                                 top: -0.5px;
+// //                                 display: none;
+// //                                 list-style-type: none;
+// //                                 padding: 0;
+// //                                 margin: 0;
+// //                                 background: #9acec4;
+
+// //                             }
+
+// //                             li {
+// //                                 &:hover {
+// //                                     >ul {
+// //                                         display: block;
+// //                                     }
+
+// //                                 }
+// //                             }
+
+
+// //                         }
+
+// //                         .dropdown-content li:hover {
+// //                             background-color: #ddd;
+// //                         }
+
+// //                     }
+
+// //                 }
+
+
+// //                 .dropdown:hover .dropdown-content {
+// //                     display: block;
+// //                 }
+
+// //                 .search-bar {
+// //                     margin: 0 50px;
+
+// //                     .form-search {
+// //                         display: flex;
+
+// //                         input[type="text"] {
+// //                             padding: 5px;
+// //                             border: 1px solid white;
+// //                             border-top-left-radius: 3px;
+// //                             border-bottom-left-radius: 3px;
+// //                             // min-width: 300px;
+// //                             width: 40vw;
+// //                             height: 30px;
+// //                             font-style: italic;
+// //                             outline: none;
+
+// //                         }
+
+// //                         button[type="submit"] {
+// //                             background-color: rgba($color: #000000, $alpha: 0.0);
+// //                             color: #fff;
+// //                             border: 1px solid white;
+// //                             border-top-right-radius: 3px;
+// //                             border-bottom-right-radius: 3px;
+// //                             padding: 0 15px;
+// //                             cursor: pointer;
+// //                         }
+// //                     }
+// //                 }
+
+// //                 .icon-control-container {
+
+// //                     display: flex;
+// //                     margin-left: auto;
+
+// //                     .icon-control {
+// //                         display: flex;
+
+
+// //                         .order-icon {
+
+// //                             .icon {
+// //                                 position: relative;
+// //                                 background: url(../../../public/shopping-bag.png) no-repeat center center;
+
+// //                                 .notify-number {
+// //                                     display: flex;
+// //                                     position: absolute;
+// //                                     background-color: red;
+// //                                     top: -5px;
+// //                                     font-size: 14px;
+// //                                     right: -10px;
+// //                                     border-radius: 50%;
+// //                                     height: 17px;
+// //                                     width: 17px;
+// //                                     color: white;
+// //                                     align-items: center;
+// //                                     justify-content: center;
+// //                                 }
+// //                             }
+
+// //                         }
+
+// //                         .user-icon {
+
+// //                             position: relative;
+// //                             display: inline-block;
+
+// //                             .icon {
+// //                                 background: url(../../../public/user.png) no-repeat center center;
+
+// //                             }
+
+// //                             .dropdown-content {
+// //                                 display: none;
+// //                                 position: absolute;
+// //                                 background-color: #f1f1f1;
+// //                                 min-width: 160px;
+// //                                 box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+// //                                 z-index: 1;
+
+// //                                 a {
+// //                                     color: black;
+// //                                     padding: 12px 16px;
+// //                                     text-decoration: none;
+// //                                     display: block;
+// //                                 }
+
+// //                                 a:hover {
+// //                                     background-color: #ddd;
+// //                                 }
+// //                             }
+
+// //                         }
+
+// //                         .user-icon:hover {
+// //                             .dropdown-content {
+// //                                 display: block;
+// //                             }
+// //                         }
+
+// //                         .order-icon,
+// //                         .user-icon {
+// //                             margin: 0 30px;
+// //                             width: fit-content;
+
+// //                             a {
+// //                                 color: #333;
+// //                                 text-decoration: none;
+
+// //                                 .icon {
+// //                                     height: 20px;
+// //                                     width: 20px;
+// //                                     margin: 5px auto;
+// //                                     background-size: contain;
+// //                                 }
+
+// //                                 .title {
+// //                                     color: white;
+// //                                 }
+// //                             }
+
+// //                         }
+// //                     }
+// //                 }
+// //             }
+
+
+// //         }
+// //     }
+
+
+
+
+
+// // }
+
+// // /*Ipad*/
+// // @media (max-width: 840px) {
+// //     .header-main {
+// //         background-color: gray;
+// //         max-width: 100vw;
+// //         width: 100vw;
+
+// //         .container {
+// //             width: 100%;
+// //             // min-width: 840px;
+// //             margin: 0 auto;
+
+// //             .row {
+// //                 display: block;
+
+// //                 .logo {
+// //                     display: flex;
+// //                     align-items: center;
+// //                     justify-content: center;
+// //                     padding-top: 15px;
+// //                 }
+
+// //                 .header-m {
+// //                     display: flex;
+// //                     align-items: center;
+// //                     justify-content: center;
+
+// //                     .search-bar {
+// //                         margin: 0 20px;
+
+// //                         .form-search {
+
+// //                             input[type="text"] {
+// //                                 // min-width: 300px;
+// //                                 width: 40vw;
+// //                             }
+
+// //                             button[type="submit"] {
+// //                                 width: 42px;
+
+// //                                 a {
+// //                                     display: none;
+// //                                 }
+
+// //                                 background-image: url(https://png.pngtree.com/png-clipart/20230419/original/pngtree-magnifying-glass-flat-icon-png-image_9067288.png);
+// //                                 background-repeat: no-repeat;
+// //                                 background-size: cover;
+// //                                 background-position: center;
+// //                             }
+
+
+// //                         }
+// //                     }
+
+// //                     .category {
+// //                         .dropdown {
+// //                             .dropdown-content {
+// //                                 display: none;
+// //                                 position: fixed;
+// //                                 top: 0;
+// //                                 right: 0;
+// //                                 bottom: 0;
+// //                                 left: 0;
+// //                                 overflow-y: scroll;
+// //                                 opacity: 0;
+// //                                 height: 0;
+// //                                 transition: opacity 0.3s ease, height 0.3s ease;
+
+
+// //                                 .title-category-rp {
+// //                                     padding: 20px;
+// //                                     background-color: #0dabb6;
+// //                                     display: flex;
+// //                                     align-items: center;
+
+// //                                     // text-align: center;
+// //                                     .ico-close {
+// //                                         display: flex;
+// //                                         cursor: pointer;
+
+// //                                         span {
+// //                                             background: url(../../../public/previous.png) no-repeat center center;
+// //                                             background-size: contain;
+// //                                             width: 30px;
+// //                                             height: 30px;
+// //                                         }
+// //                                     }
+
+// //                                     .title-category {
+// //                                         margin: auto;
+// //                                         font-size: 24px;
+// //                                         font-weight: bold;
+// //                                         color: white;
+
+// //                                     }
+
+// //                                 }
+
+// //                                 a {
+// //                                     display: inline-block;
+// //                                     padding: 15px 20px;
+// //                                     font-size: 20px;
+// //                                 }
+
+// //                                 li {
+// //                                     padding: 0;
+// //                                     background-color: white;
+// //                                     margin: 2px 0;
+// //                                     position: relative;
+
+// //                                     .catogory-title {
+// //                                         display: flex;
+// //                                         align-items: center;
+
+// //                                         a {
+// //                                             display: inline-block;
+// //                                             padding: 15px 20px;
+// //                                         }
+// //                                     }
+// //                                 }
+
+// //                                 .child {
+// //                                     .catogory-title {
+// //                                         span {
+// //                                             background: url(https://seekicon.com/free-icon-download/arrow-dropdown_2.png) no-repeat center center;
+// //                                             margin-right: 20px;
+// //                                             margin-left: auto;
+// //                                             background-size: contain;
+// //                                             width: 16px;
+// //                                             height: 16px;
+// //                                             min-width: 16px;
+
+// //                                         }
+// //                                     }
+
+// //                                 }
+
+// //                                 .no-child {
+// //                                     .catogory-title {
+// //                                         span {
+// //                                             background: url() no-repeat center center;
+// //                                             position: absolute;
+// //                                             right: 20px;
+// //                                             display: inline-block;
+// //                                             vertical-align: middle;
+// //                                             background-size: contain;
+// //                                             width: 16px;
+// //                                             height: 16px;
+// //                                         }
+// //                                     }
+
+// //                                 }
+
+// //                                 li:hover {
+// //                                     background-color: white;
+// //                                 }
+
+// //                                 .active {
+// //                                     >.catogory-title:first-child {
+// //                                         a {
+// //                                             color: red;
+// //                                         }
+// //                                     }
+
+// //                                     >ul {
+// //                                         display: block;
+// //                                         position: static;
+// //                                         background-color: white;
+
+// //                                     }
+
+
+// //                                     >span {
+// //                                         background: url(https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ico_triangle_red_up.svg) no-repeat center center;
+// //                                     }
+// //                                 }
+
+// //                             }
+// //                         }
+// //                     }
+
+// //                     .icon-control-container {
+// //                         .icon-control {
+// //                             .user-icon:hover {
+// //                                 .dropdown-content {
+// //                                     display: none;
+// //                                 }
+// //                             }
+// //                         }
+// //                     }
+
+// //                     .icon-control-container {
+
+// //                         display: flex;
+// //                         // margin-left: auto;
+// //                         margin: 0;
+
+// //                         .icon-control {
+// //                             .title {
+// //                                 display: none;
+// //                             }
+
+// //                             .order-icon,
+// //                             .user-icon {
+// //                                 margin: 0 16px;
+// //                                 width: fit-content;
+
+// //                             }
+// //                         }
+// //                     }
+// //                 }
+// //             }
+
+
+// //         }
+
+// //     }
+
+// // }
+
+
+// // //Điện thoại
+// // @media (max-width: 450px) {
+// //     .header-main {
+// //         .container {
+
+
+// //             .row {
+
+// //                 .header-m {
+
+// //                     .search-bar {
+
+// //                         .form-search {
+
+// //                             input[type="text"] {
+// //                                 // min-width: 300px;
+// //                                 width: 30vw;
+// //                             }
+
+
+
+// //                         }
+// //                     }
+
+// //                 }
+// //             }
+
+// //         }
+
+// //     }
+
+// // }
+
+
+
+// .header-main {
+//   background-color: #00ab9f;
+
+//   .container {
+//     // width: 70%;
+//     // min-width: 1280px;
+//     width: 80%;
+//     // min-width: 1280px;
+
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     margin: 0 auto;
+
+//     .row {
+//       display: flex;
+//       align-items: center;
+
+//       .logo {
+//         margin: 0 15px;
+
+//         img {
+//           max-height: 50px;
+//         }
+//       }
+
+//       .header-m {
+//         display: flex;
+//         align-items: center;
+
+//         .category {
+//           list-style: none;
+
+//           .dropdown {
+//             position: relative;
+//             display: inline-block;
+//             list-style-type: none;
+
+//             .dropbtn {
+//               color: white;
+//               padding: 16px;
+//               font-size: 16px;
+//               border: none;
+
+//               .icon-menu {
+//                 img {
+//                   width: 36px;
+//                   height: 36px;
+//                 }
+//               }
+//             }
+
+//             .dropdown-content {
+//               display: none;
+//               position: absolute;
+//               background-color: #f1f1f1;
+//               box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+//               z-index: 1;
+
+//               .title-category-rp {
+//                 display: none;
+//               }
+
+//               a {
+//                 text-decoration: none;
+//                 color: black;
+//               }
+
+//               li {
+//                 padding: 10px 20px;
+
+//                 position: relative;
+//                 min-width: 160px;
+//               }
+
+//               ul {
+//                 position: absolute;
+//                 left: 100%;
+//                 top: -0.5px;
+//                 display: none;
+//                 list-style-type: none;
+//                 padding: 0;
+//                 margin: 0;
+//                 background: #ddd;
+//               }
+
+//               li {
+//                 &:hover {
+//                   >ul {
+//                     display: block;
+//                   }
+//                 }
+//               }
+//             }
+
+//             .dropdown-content li:hover {
+//               background-color: #11948d;
+//               color: #f1f1f1;
+//             }
+//           }
+//         }
+
+//         .dropdown:hover .dropdown-content {
+//           display: block;
+//         }
+
+//         .search-bar {
+//           margin: 0 50px;
+
+//           .form-search {
+//             display: flex;
+
+//             input[type="text"] {
+//               padding: 5px;
+//               border: 1px solid white;
+//               border-top-left-radius: 3px;
+//               border-bottom-left-radius: 3px;
+//               // min-width: 300px;
+//               width: 40vw;
+//               height: 30px;
+//               font-style: italic;
+//               outline: none;
+//             }
+
+//             button[type="submit"] {
+//               background-color: rgba($color: #000000, $alpha: 0);
+//               color: #fff;
+//               border: 1px solid white;
+//               border-top-right-radius: 3px;
+//               border-bottom-right-radius: 3px;
+//               padding: 0 15px;
+//               cursor: pointer;
+//             }
+//           }
+//         }
+
+//         .icon-control-container {
+//           display: flex;
+//           margin-left: auto;
+
+//           .icon-control {
+//             display: flex;
+
+//             .order-icon {
+//               .icon {
+//                 background: url(../../../public/shopping-bag.png) no-repeat center center;
+//                 position: relative;
+
+//                 .notify-number {
+//                   display: flex;
+//                   position: absolute;
+//                   background-color: red;
+//                   top: -5px;
+//                   font-size: 14px;
+//                   right: -10px;
+//                   border-radius: 50%;
+//                   height: 17px;
+//                   width: 17px;
+//                   color: white;
+//                   align-items: center;
+//                   justify-content: center;
+//                 }
+//               }
+//             }
+
+//             .user-icon {
+//               position: relative;
+//               display: inline-block;
+
+//               .icon {
+//                 background: url(../../../public/user.png) no-repeat center center;
+//               }
+
+//               .dropdown-content {
+//                 display: none;
+//                 position: absolute;
+//                 background-color: #f1f1f1;
+//                 min-width: 160px;
+//                 box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+//                 z-index: 1;
+
+//                 a {
+//                   color: black;
+//                   padding: 12px 16px;
+//                   text-decoration: none;
+//                   display: block;
+//                 }
+
+//                 a:hover {
+//                   background-color: #ddd;
+//                 }
+//               }
+//             }
+
+//             .user-icon:hover {
+//               .dropdown-content {
+//                 display: block;
+//               }
+//             }
+
+//             .order-icon,
+//             .user-icon {
+//               margin: 0 30px;
+//               width: fit-content;
+
+//               a {
+//                 color: #333;
+//                 text-decoration: none;
+
+//                 .icon {
+//                   height: 20px;
+//                   width: 20px;
+//                   margin: 5px auto;
+//                   background-size: contain;
+//                 }
+
+//                 .title {
+//                   color: white;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// /*Ipad*/
+// @media (max-width: 840px) {
+//   .header-main {
+//     // background-color: gray;
+//     max-width: 100vw;
+//     width: 100vw;
+
+//     .container {
+//       width: 100%;
+//       // min-width: 840px;
+//       margin: 0 auto;
+
+//       .row {
+//         display: block;
+
+//         .logo {
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//           padding-top: 15px;
+//         }
+
+//         .header-m {
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+
+//           .search-bar {
+//             margin: 0 20px;
+
+//             .form-search {
+//               input[type="text"] {
+//                 // min-width: 300px;
+//                 width: 40vw;
+//               }
+
+//               button[type="submit"] {
+//                 width: 42px;
+
+//                 a {
+//                   display: none;
+//                 }
+
+//                 background-image: url(https://png.pngtree.com/png-clipart/20230419/original/pngtree-magnifying-glass-flat-icon-png-image_9067288.png);
+//                 background-repeat: no-repeat;
+//                 background-size: cover;
+//                 background-position: center;
+//               }
+//             }
+//           }
+
+//           .category {
+//             .dropdown {
+//               .dropdown-content {
+//                 display: none;
+//                 position: fixed;
+//                 top: 0;
+//                 right: 0;
+//                 bottom: 0;
+//                 left: 0;
+//                 overflow-y: scroll;
+//                 opacity: 0;
+//                 height: 0;
+//                 transition: opacity 0.3s ease, height 0.3s ease;
+
+//                 .title-category-rp {
+//                   padding: 20px;
+//                   background-color: #0dabb6;
+//                   display: flex;
+//                   align-items: center;
+
+//                   // text-align: center;
+//                   .ico-close {
+//                     display: flex;
+//                     cursor: pointer;
+
+//                     span {
+//                       background: url(../../../public/previous.png) no-repeat center center;
+//                       background-size: contain;
+//                       width: 30px;
+//                       height: 30px;
+//                     }
+//                   }
+
+//                   .title-category {
+//                     margin: auto;
+//                     font-size: 24px;
+//                     font-weight: bold;
+//                     color: white;
+//                   }
+//                 }
+
+//                 a {
+//                   display: inline-block;
+//                   padding: 15px 20px;
+//                   font-size: 20px;
+//                 }
+
+//                 li {
+//                   padding: 0;
+//                   background-color: white;
+//                   margin: 2px 0;
+//                   position: relative;
+
+//                   .catogory-title {
+//                     display: flex;
+//                     align-items: center;
+
+//                     a {
+//                       display: inline-block;
+//                       padding: 15px 20px;
+//                     }
+//                   }
+//                 }
+
+//                 .child {
+//                   .catogory-title {
+//                     span {
+//                       background: url(https://seekicon.com/free-icon-download/arrow-dropdown_2.png) no-repeat center center;
+//                       margin-right: 20px;
+//                       margin-left: auto;
+//                       background-size: contain;
+//                       width: 16px;
+//                       height: 16px;
+//                       min-width: 16px;
+//                     }
+//                   }
+//                 }
+
+//                 .no-child {
+//                   .catogory-title {
+//                     span {
+//                       background: url() no-repeat center center;
+//                       position: absolute;
+//                       right: 20px;
+//                       display: inline-block;
+//                       vertical-align: middle;
+//                       background-size: contain;
+//                       width: 16px;
+//                       height: 16px;
+//                     }
+//                   }
+//                 }
+
+//                 li:hover {
+//                   background-color: white;
+//                 }
+
+//                 .active {
+//                   >.catogory-title:first-child {
+//                     a {
+//                       color: red;
+//                     }
+//                   }
+
+//                   >ul {
+//                     display: block;
+//                     position: static;
+//                     background-color: white;
+//                   }
+
+//                   >span {
+//                     background: url(https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ico_triangle_red_up.svg) no-repeat center center;
+//                   }
+//                 }
+//               }
+//             }
+//           }
+
+//           .icon-control-container {
+//             .icon-control {
+//               .user-icon:hover {
+//                 .dropdown-content {
+//                   display: none;
+//                 }
+//               }
+//             }
+//           }
+
+//           .icon-control-container {
+//             display: flex;
+//             // margin-left: auto;
+//             margin: 0;
+
+//             .icon-control {
+//               .title {
+//                 display: none;
+//               }
+
+//               .order-icon,
+//               .user-icon {
+//                 margin: 0 16px;
+//                 width: fit-content;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// //Điện thoại
+// @media (max-width: 450px) {
+//   .header-main {
+//     .container {
+//       .row {
+//         .header-m {
+//           .search-bar {
+//             .form-search {
+//               input[type="text"] {
+//                 // min-width: 300px;
+//                 width: 30vw;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// .header-main {
+//     background-color: darkgreen;
+
+//     .container {
+//         // width: 70%;
+//         // min-width: 1280px;
+//         width: 80%;
+//         // min-width: 1280px;
+
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         margin: 0 auto;
+
+//         .row {
+//             display: flex;
+//             align-items: center;
+
+//             .logo {
+//                 margin: 0 15px;
+
+//                 img {
+//                     max-height: 50px;
+//                 }
+
+//             }
+
+//             .header-m {
+//                 display: flex;
+//                 align-items: center;
+
+
+//                 .category {
+//                     list-style: none;
+
+//                     .dropdown {
+//                         position: relative;
+//                         display: inline-block;
+//                         list-style-type: none;
+
+//                         .dropbtn {
+//                             color: white;
+//                             padding: 16px;
+//                             font-size: 16px;
+//                             border: none;
+
+//                             .icon-menu {
+//                                 img {
+//                                     width: 36px;
+//                                     height: 36px;
+//                                 }
+//                             }
+//                         }
+
+//                         .dropdown-content {
+//                             display: none;
+//                             position: absolute;
+//                             background-color: #f1f1f1;
+//                             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+//                             z-index: 1;
+
+//                             .title-category-rp {
+//                                 display: none;
+//                             }
+
+//                             a {
+//                                 text-decoration: none;
+//                                 color: black;
+//                             }
+
+//                             li {
+//                                 padding: 10px 20px;
+
+//                                 position: relative;
+//                                 min-width: 160px;
+
+//                             }
+
+//                             ul {
+//                                 position: absolute;
+//                                 left: 100%;
+//                                 top: -0.5px;
+//                                 display: none;
+//                                 list-style-type: none;
+//                                 padding: 0;
+//                                 margin: 0;
+//                                 background: #9acec4;
+
+//                             }
+
+//                             li {
+//                                 &:hover {
+//                                     >ul {
+//                                         display: block;
+//                                     }
+
+//                                 }
+//                             }
+
+
+//                         }
+
+//                         .dropdown-content li:hover {
+//                             background-color: #ddd;
+//                         }
+
+//                     }
+
+//                 }
+
+
+//                 .dropdown:hover .dropdown-content {
+//                     display: block;
+//                 }
+
+//                 .search-bar {
+//                     margin: 0 50px;
+
+//                     .form-search {
+//                         display: flex;
+
+//                         input[type="text"] {
+//                             padding: 5px;
+//                             border: 1px solid white;
+//                             border-top-left-radius: 3px;
+//                             border-bottom-left-radius: 3px;
+//                             // min-width: 300px;
+//                             width: 40vw;
+//                             height: 30px;
+//                             font-style: italic;
+//                             outline: none;
+
+//                         }
+
+//                         button[type="submit"] {
+//                             background-color: rgba($color: #000000, $alpha: 0.0);
+//                             color: #fff;
+//                             border: 1px solid white;
+//                             border-top-right-radius: 3px;
+//                             border-bottom-right-radius: 3px;
+//                             padding: 0 15px;
+//                             cursor: pointer;
+//                         }
+//                     }
+//                 }
+
+//                 .icon-control-container {
+
+//                     display: flex;
+//                     margin-left: auto;
+
+//                     .icon-control {
+//                         display: flex;
+
+
+//                         .order-icon {
+
+//                             .icon {
+//                                 position: relative;
+//                                 background: url(../../../public/shopping-bag.png) no-repeat center center;
+
+//                                 .notify-number {
+//                                     display: flex;
+//                                     position: absolute;
+//                                     background-color: red;
+//                                     top: -5px;
+//                                     font-size: 14px;
+//                                     right: -10px;
+//                                     border-radius: 50%;
+//                                     height: 17px;
+//                                     width: 17px;
+//                                     color: white;
+//                                     align-items: center;
+//                                     justify-content: center;
+//                                 }
+//                             }
+
+//                         }
+
+//                         .user-icon {
+
+//                             position: relative;
+//                             display: inline-block;
+
+//                             .icon {
+//                                 background: url(../../../public/user.png) no-repeat center center;
+
+//                             }
+
+//                             .dropdown-content {
+//                                 display: none;
+//                                 position: absolute;
+//                                 background-color: #f1f1f1;
+//                                 min-width: 160px;
+//                                 box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+//                                 z-index: 1;
+
+//                                 a {
+//                                     color: black;
+//                                     padding: 12px 16px;
+//                                     text-decoration: none;
+//                                     display: block;
+//                                 }
+
+//                                 a:hover {
+//                                     background-color: #ddd;
+//                                 }
+//                             }
+
+//                         }
+
+//                         .user-icon:hover {
+//                             .dropdown-content {
+//                                 display: block;
+//                             }
+//                         }
+
+//                         .order-icon,
+//                         .user-icon {
+//                             margin: 0 30px;
+//                             width: fit-content;
+
+//                             a {
+//                                 color: #333;
+//                                 text-decoration: none;
+
+//                                 .icon {
+//                                     height: 20px;
+//                                     width: 20px;
+//                                     margin: 5px auto;
+//                                     background-size: contain;
+//                                 }
+
+//                                 .title {
+//                                     color: white;
+//                                 }
+//                             }
+
+//                         }
+//                     }
+//                 }
+//             }
+
+
+//         }
+//     }
+
+
+
+
+
+// }
+
+// /*Ipad*/
+// @media (max-width: 840px) {
+//     .header-main {
+//         background-color: gray;
+//         max-width: 100vw;
+//         width: 100vw;
+
+//         .container {
+//             width: 100%;
+//             // min-width: 840px;
+//             margin: 0 auto;
+
+//             .row {
+//                 display: block;
+
+//                 .logo {
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: center;
+//                     padding-top: 15px;
+//                 }
+
+//                 .header-m {
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: center;
+
+//                     .search-bar {
+//                         margin: 0 20px;
+
+//                         .form-search {
+
+//                             input[type="text"] {
+//                                 // min-width: 300px;
+//                                 width: 40vw;
+//                             }
+
+//                             button[type="submit"] {
+//                                 width: 42px;
+
+//                                 a {
+//                                     display: none;
+//                                 }
+
+//                                 background-image: url(https://png.pngtree.com/png-clipart/20230419/original/pngtree-magnifying-glass-flat-icon-png-image_9067288.png);
+//                                 background-repeat: no-repeat;
+//                                 background-size: cover;
+//                                 background-position: center;
+//                             }
+
+
+//                         }
+//                     }
+
+//                     .category {
+//                         .dropdown {
+//                             .dropdown-content {
+//                                 display: none;
+//                                 position: fixed;
+//                                 top: 0;
+//                                 right: 0;
+//                                 bottom: 0;
+//                                 left: 0;
+//                                 overflow-y: scroll;
+//                                 opacity: 0;
+//                                 height: 0;
+//                                 transition: opacity 0.3s ease, height 0.3s ease;
+
+
+//                                 .title-category-rp {
+//                                     padding: 20px;
+//                                     background-color: #0dabb6;
+//                                     display: flex;
+//                                     align-items: center;
+
+//                                     // text-align: center;
+//                                     .ico-close {
+//                                         display: flex;
+//                                         cursor: pointer;
+
+//                                         span {
+//                                             background: url(../../../public/previous.png) no-repeat center center;
+//                                             background-size: contain;
+//                                             width: 30px;
+//                                             height: 30px;
+//                                         }
+//                                     }
+
+//                                     .title-category {
+//                                         margin: auto;
+//                                         font-size: 24px;
+//                                         font-weight: bold;
+//                                         color: white;
+
+//                                     }
+
+//                                 }
+
+//                                 a {
+//                                     display: inline-block;
+//                                     padding: 15px 20px;
+//                                     font-size: 20px;
+//                                 }
+
+//                                 li {
+//                                     padding: 0;
+//                                     background-color: white;
+//                                     margin: 2px 0;
+//                                     position: relative;
+
+//                                     .catogory-title {
+//                                         display: flex;
+//                                         align-items: center;
+
+//                                         a {
+//                                             display: inline-block;
+//                                             padding: 15px 20px;
+//                                         }
+//                                     }
+//                                 }
+
+//                                 .child {
+//                                     .catogory-title {
+//                                         span {
+//                                             background: url(https://seekicon.com/free-icon-download/arrow-dropdown_2.png) no-repeat center center;
+//                                             margin-right: 20px;
+//                                             margin-left: auto;
+//                                             background-size: contain;
+//                                             width: 16px;
+//                                             height: 16px;
+//                                             min-width: 16px;
+
+//                                         }
+//                                     }
+
+//                                 }
+
+//                                 .no-child {
+//                                     .catogory-title {
+//                                         span {
+//                                             background: url() no-repeat center center;
+//                                             position: absolute;
+//                                             right: 20px;
+//                                             display: inline-block;
+//                                             vertical-align: middle;
+//                                             background-size: contain;
+//                                             width: 16px;
+//                                             height: 16px;
+//                                         }
+//                                     }
+
+//                                 }
+
+//                                 li:hover {
+//                                     background-color: white;
+//                                 }
+
+//                                 .active {
+//                                     >.catogory-title:first-child {
+//                                         a {
+//                                             color: red;
+//                                         }
+//                                     }
+
+//                                     >ul {
+//                                         display: block;
+//                                         position: static;
+//                                         background-color: white;
+
+//                                     }
+
+
+//                                     >span {
+//                                         background: url(https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ico_triangle_red_up.svg) no-repeat center center;
+//                                     }
+//                                 }
+
+//                             }
+//                         }
+//                     }
+
+//                     .icon-control-container {
+//                         .icon-control {
+//                             .user-icon:hover {
+//                                 .dropdown-content {
+//                                     display: none;
+//                                 }
+//                             }
+//                         }
+//                     }
+
+//                     .icon-control-container {
+
+//                         display: flex;
+//                         // margin-left: auto;
+//                         margin: 0;
+
+//                         .icon-control {
+//                             .title {
+//                                 display: none;
+//                             }
+
+//                             .order-icon,
+//                             .user-icon {
+//                                 margin: 0 16px;
+//                                 width: fit-content;
+
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+
+
+//         }
+
+//     }
+
+// }
+
+
+// //Điện thoại
+// @media (max-width: 450px) {
+//     .header-main {
+//         .container {
+
+
+//             .row {
+
+//                 .header-m {
+
+//                     .search-bar {
+
+//                         .form-search {
+
+//                             input[type="text"] {
+//                                 // min-width: 300px;
+//                                 width: 30vw;
+//                             }
+
+
+
+//                         }
+//                     }
+
+//                 }
+//             }
+
+//         }
+
+//     }
+
+// }
+
+
+
+.header-main {
+  background-color: #00ab9f;
+
+  .container {
+    // width: 70%;
+    // min-width: 1280px;
+    width: 80%;
+    // min-width: 1280px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    .row {
+      display: flex;
+      align-items: center;
+
+      .logo {
+        margin: 0 15px;
+
+        img {
+          max-height: 50px;
+        }
+      }
+
+      .header-m {
+        display: flex;
+        align-items: center;
+
+        .category {
+          list-style: none;
+
+          .dropdown {
+            position: relative;
+            display: inline-block;
+            list-style-type: none;
+
+            .dropbtn {
+              color: white;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+
+              .icon-menu {
+                img {
+                  width: 36px;
+                  height: 36px;
+                }
+              }
+            }
+
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f1f1f1;
+              box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+              z-index: 1;
+
+              .title-category-rp {
+                display: none;
+              }
+
+              a {
+                text-decoration: none;
+                color: black;
+              }
+
+              li {
+                padding: 10px 20px;
+
+                position: relative;
+                min-width: 160px;
+              }
+
+              ul {
+                position: absolute;
+                left: 100%;
+                top: -0.5px;
+                display: none;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                background: #ddd;
+              }
+
+              li {
+                &:hover {
+                  >ul {
+                    display: block;
+                  }
+                }
+              }
+            }
+
+            .dropdown-content li:hover {
+              background-color: #11948d;
+              color: #f1f1f1;
+            }
+          }
+        }
+
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        .search-bar {
+          margin: 0 50px;
+
+          .form-search {
+            display: flex;
+
+            input[type="text"] {
+              padding: 5px;
+              border: 1px solid white;
+              border-top-left-radius: 3px;
+              border-bottom-left-radius: 3px;
+              // min-width: 300px;
+              width: 40vw;
+              height: 30px;
+              font-style: italic;
+              outline: none;
+            }
+
+            button[type="submit"] {
+              background-color: rgba($color: #000000, $alpha: 0);
+              color: #fff;
+              border: 1px solid white;
+              border-top-right-radius: 3px;
+              border-bottom-right-radius: 3px;
+              padding: 0 15px;
+              cursor: pointer;
+            }
+          }
+        }
+
+        .icon-control-container {
+          display: flex;
+          margin-left: auto;
+
+          .icon-control {
+            display: flex;
+
+            .order-icon {
+              .icon {
+                background: url(../../../public/shopping-bag.png) no-repeat center center;
+                position: relative;
+
+                .notify-number {
+                  display: flex;
+                  position: absolute;
+                  background-color: red;
+                  top: -5px;
+                  font-size: 14px;
+                  right: -10px;
+                  border-radius: 50%;
+                  height: 17px;
+                  width: 17px;
+                  color: white;
+                  align-items: center;
+                  justify-content: center;
+                }
+              }
+            }
+
+            .user-icon {
+              position: relative;
+              display: inline-block;
+
+              .icon {
+                background: url(../../../public/user.png) no-repeat center center;
+              }
+
+              .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+
+                a {
+                  color: black;
+                  padding: 12px 16px;
+                  text-decoration: none;
+                  display: block;
+                }
+
+                a:hover {
+                  background-color: #ddd;
+                }
+              }
+            }
+
+            .user-icon:hover {
+              .dropdown-content {
+                display: block;
+              }
+            }
+
+            .order-icon,
+            .user-icon {
+              margin: 0 30px;
+              width: fit-content;
+
+              a {
+                color: #333;
+                text-decoration: none;
+
+                .icon {
+                  height: 20px;
+                  width: 20px;
+                  margin: 5px auto;
+                  background-size: contain;
+                }
+
+                .title {
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Ipad*/
+@media (max-width: 840px) {
+  .header-main {
+    // background-color: gray;
+    max-width: 100vw;
+    width: 100vw;
+
+    .container {
+      width: 100%;
+      // min-width: 840px;
+      margin: 0 auto;
+
+      .row {
+        display: block;
+
+        .logo {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-top: 15px;
+        }
+
+        .header-m {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .search-bar {
+            margin: 0 20px;
+
+            .form-search {
+              input[type="text"] {
+                // min-width: 300px;
+                width: 40vw;
+              }
+
+              button[type="submit"] {
+                width: 42px;
+
+                a {
+                  display: none;
+                }
+
+                background-image: url(https://png.pngtree.com/png-clipart/20230419/original/pngtree-magnifying-glass-flat-icon-png-image_9067288.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+              }
+            }
+          }
+
+          .category {
+            .dropdown {
+              .dropdown-content {
+                display: none;
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                overflow-y: scroll;
+                opacity: 0;
+                height: 0;
+                transition: opacity 0.3s ease, height 0.3s ease;
+
+                .title-category-rp {
+                  padding: 20px;
+                  background-color: #0dabb6;
+                  display: flex;
+                  align-items: center;
+
+                  // text-align: center;
+                  .ico-close {
+                    display: flex;
+                    cursor: pointer;
+
+                    span {
+                      background: url(../../../public/previous.png) no-repeat center center;
+                      background-size: contain;
+                      width: 30px;
+                      height: 30px;
+                    }
+                  }
+
+                  .title-category {
+                    margin: auto;
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: white;
+                  }
+                }
+
+                a {
+                  display: inline-block;
+                  padding: 15px 20px;
+                  font-size: 20px;
+                }
+
+                li {
+                  padding: 0;
+                  background-color: white;
+                  margin: 2px 0;
+                  position: relative;
+
+                  .catogory-title {
+                    display: flex;
+                    align-items: center;
+
+                    a {
+                      display: inline-block;
+                      padding: 15px 20px;
+                    }
+                  }
+                }
+
+                .child {
+                  .catogory-title {
+                    span {
+                      background: url(https://seekicon.com/free-icon-download/arrow-dropdown_2.png) no-repeat center center;
+                      margin-right: 20px;
+                      margin-left: auto;
+                      background-size: contain;
+                      width: 16px;
+                      height: 16px;
+                      min-width: 16px;
+                    }
+                  }
+                }
+
+                .no-child {
+                  .catogory-title {
+                    span {
+                      background: url() no-repeat center center;
+                      position: absolute;
+                      right: 20px;
+                      display: inline-block;
+                      vertical-align: middle;
+                      background-size: contain;
+                      width: 16px;
+                      height: 16px;
+                    }
+                  }
+                }
+
+                li:hover {
+                  background-color: white;
+                }
+
+                .active {
+                  >.catogory-title:first-child {
+                    a {
+                      color: red;
+                    }
+
+                    >span {
+                      // background: url(https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ico_triangle_red_up.svg) no-repeat center center;
+                      transform: rotate(180deg);
+                    }
+                  }
+
+                  >ul {
+                    display: block;
+                    position: static;
+                    background-color: white;
+                  }
+
+
+                }
+              }
+            }
+          }
+
+          .icon-control-container {
+            .icon-control {
+              .user-icon:hover {
+                .dropdown-content {
+                  display: none;
+                }
+              }
+            }
+          }
+
+          .icon-control-container {
+            display: flex;
+            // margin-left: auto;
+            margin: 0;
+
+            .icon-control {
+              .title {
+                display: none;
+              }
+
+              .order-icon,
+              .user-icon {
+                margin: 0 16px;
+                width: fit-content;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//Điện thoại
+@media (max-width: 450px) {
+  .header-main {
+    .container {
+      .row {
+        .header-m {
+          .search-bar {
+            .form-search {
+              input[type="text"] {
+                // min-width: 300px;
+                width: 30vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

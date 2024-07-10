@@ -1,0 +1,146 @@
+.footer-container {
+  background-color: #eaeaea;
+
+  .footer {
+    display: flex;
+    width: 80%;
+    // min-width: 1280px;
+    // margin-left: auto;
+    // align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    color: #333333;
+  }
+
+  .news,
+  .policy,
+  .category-hot,
+  .about-us {
+    // color: rgb(25    5, 255, 255);
+
+    h3 {
+      margin: 10px 0;
+      font-weight: bold;
+      color: #666666;
+    }
+
+    a {
+      display: block;
+      color: #666666;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    a:hover {
+      color: #02d1c3;
+    }
+
+    margin: 0 auto;
+  }
+
+  .contact {
+    align-items: center;
+
+    h3 {
+      margin: 10px 0;
+      font-weight: bold;
+      color: #666666;
+    }
+
+    .phone {
+      display: block;
+
+      span {
+        margin-bottom: 10px;
+      }
+    }
+
+    a {
+      margin-right: 10px;
+      color: #666666;
+
+      img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+    }
+
+    margin: 0 auto;
+  }
+}
+
+//Ipad
+@media (max-width: 840px) {
+  .footer-container {
+    background-color: #eaeaea;
+    padding: 20px;
+
+    .footer {
+      display: block;
+      // padding: 20px;
+      width: 100%;
+      min-width: 0;
+      color: #333333;
+    }
+  }
+  .news,
+  .policy,
+  .category-hot,
+  .about-us {
+    // color: rgb(25    5, 255, 255);
+
+    h3 {
+      margin: 10px 0;
+      font-weight: bold;
+      color: #666666;
+    }
+
+    a {
+      display: block;
+      color: #666666;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    a:hover {
+      color: #02d1c3;
+    }
+
+    margin: 0 auto;
+  }
+
+  .contact {
+    align-items: center;
+
+    h3 {
+      margin: 10px 0;
+      font-weight: bold;
+      color: #666666;
+    }
+
+    .phone {
+      display: block;
+
+      span {
+        margin-bottom: 10px;
+      }
+    }
+
+    a {
+      margin-right: 10px;
+      color: #666666;
+
+      img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+    }
+
+    margin: 0 auto;
+  }
+}
