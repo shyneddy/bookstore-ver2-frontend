@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3002", // Thay thế bằng URL của API bạn đang sử dụng
+  baseURL: "https://bookstore-ver2-backend.onrender.com", // Thay thế bằng URL của API bạn đang sử dụng
   withCredentials: true, // Gửi cookie trong cross-origin requests (nếu cần thiết)
   headers: {
     "Content-Type": "application/json",
