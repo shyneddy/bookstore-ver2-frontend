@@ -54,10 +54,10 @@ class Footer extends React.Component {
               <img src="/Twitter.png"></img>
             </a>
             <a className="phone">
-              <span>Phone: 0393816391</span>
+              <span>Phone: 0822293069</span>
             </a>
             <a className="phone">
-              <span>Email: sachonline_tttn@uth.edu.com </span>
+              <span>Email: shyneddy2002@gmail.com </span>
             </a>
           </div>
         </div>
